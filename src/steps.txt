@@ -1,0 +1,16 @@
+Singleton Design Pattern
+
+Singleton is part of creational design pattern. It serves to create one and only one instance of class.
+
+
+In Java, singleton is implemented using following basic rules.
+
+- Private Static instance variable of singleton class.
+- Private constructor to create object internally, but not outside of class.
+- Public static getInstance() method to access private static instance.
+
+Three Approaches to implement singleton patter.
+
+- Eager Approach
+- Static Code Block
+- Lazy Initialisation
